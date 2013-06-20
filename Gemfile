@@ -20,3 +20,7 @@ group :development, :test do
   gem 'spork'
   gem 'factory_girl_rails'
 end
+
+group :production do
+  gem 'pg'
+end
