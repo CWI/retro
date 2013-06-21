@@ -6,3 +6,7 @@ en:
   summary: Don't forget what happened in the last retro!
   help_sign_in: Don't have account but I want to
   register: register
+  post_its:
+    agree:    'Agree'
+    disagree: 'Disagree'
+    remove:   'Remove'

@@ -3,3 +3,7 @@ pt-BR:
   summary: Não esqueça o que rolou na última retro!
   help_sign_in: Não tenho uma conta, mas quero me
   register: cadastrar
+  post_its:
+    agree:    'Concordo'
+    disagree: 'Discordo'
+    remove:   'Excluir'
