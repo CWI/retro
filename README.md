@@ -1,5 +1,7 @@
 # Retro
 
+[![Code Climate](https://codeclimate.com/github/CWI/retro.png)](https://codeclimate.com/github/CWI/retro)
+
 Simple app to manage retrospective meetings.
 
 See how it works using looking at the screenshots below:
