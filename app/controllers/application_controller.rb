@@ -16,13 +16,11 @@ class ApplicationController < ActionController::Base
   end
 
   def not_found(error = nil)
-    log_error(error) if error.present?
-    render(:file => "#{Rails.root}/public/404", formats: [:html], status: :not_found, layout: false)
+    render_error error, 404
   end
 
   def internal_error(error = nil)
-    log_error(error) if error.present?
-    render(:file => "#{Rails.root}/public/500", formats: [:html], status: :internal_server_error, layout: false)
+    render_error error, 500
   end
 
   def log_error(error)
@@ -37,4 +35,11 @@ class ApplicationController < ActionController::Base
 
     nil
   end
+
+  private
+  def render_error error, error_code
+    log_error(error) if error.present?
+    render(:file => "#{Rails.root}/public/#{error_code}", formats: [:html], status: :internal_server_error, layout: false)
+  end
+
 end
