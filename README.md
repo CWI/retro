@@ -1,5 +1,7 @@
 # Retro
 
+[![Build Status](https://travis-ci.org/CWI/retro.png?branch=master)](https://travis-ci.org/CWI/retro)
+
 [![Code Climate](https://codeclimate.com/github/CWI/retro.png)](https://codeclimate.com/github/CWI/retro)
 
 Simple app to manage retrospective meetings.
