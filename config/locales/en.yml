@@ -2,4 +2,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  title: CWI Retro
+  summary: Don't forget what happened in the last retro!
+  help_sign_in: Don't have account but I want to
+  register: register
