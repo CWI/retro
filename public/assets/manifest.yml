@@ -9,8 +9,5 @@ moe.png: moe-b311401f959b239c0186ad448e958fa1.png
 nelson.png: nelson-93a89a4d60314d5273d344336a06769d.png
 nelson_not_found.png: nelson_not_found-2a50c030f6fe618bddd9517e41e8637c.png
 willy.png: willy-f9b31b5aed88acc63035143cf44afa25.png
-application.js: application-2d6024b71ef4b49fc38dc25b77515ab0.js
-application.css: application-b88b646ab2efe0a3686d8f2d5e4f72c1.css
-glyphicons-halflings-white.png: glyphicons-halflings-white-13553a5bf21ae3cc374006592488ec64.png
-glyphicons-halflings.png: glyphicons-halflings-ab3144065a860d198f1d7d9a4882640c.png
-jquery.min.map: jquery.min-536b8ff89da132748a61e54b3ab01a8d.map
+application.js: application-5a7c99e847a2d30a9caf5e10f40f2da7.js
+application.css: application-f7d735134863ad1651cfafec214b3f07.css

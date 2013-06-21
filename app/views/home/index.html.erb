@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>Retro CWI</title>
+    <%= stylesheet_link_tag "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" %>
+    <%= stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" %>
     <%= stylesheet_link_tag    "application", :media => "all" %>
-    <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
   <body id="home">
@@ -65,5 +66,8 @@
         </p>
       </div><!-- /div:container-->
     </footer>
+    <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" %>
+    <%= javascript_include_tag "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js" %>
+    <%= javascript_include_tag "application" %>
   </body>
 </html>
